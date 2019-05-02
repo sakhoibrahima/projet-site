@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  section {
+    padding: 80px 0;
+  }
+  
+  .sticky {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(hero-min.jpg);
+  }
+  /* HEADER STICKY CLASS CORRECT */
+  
+  /* LOGO CORRECT */
+  
+  .row1 img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+  }
+  
+  .main-nav {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+  }
+  
+  .list {
+    list-style-type: none;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .list a {
+    color: white;
+    position: relative;
+    top: 30px;
+    right: 30px;
+    font-weight: 300;
+    list-style-position: outside;
+  
+    text-decoration: none;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  
+  .hero-text-box {
+    left: 380px;
+    position: relative;
+    top: 120px;
+    /* border: 4px solid black; */
+  }
+  
+  .hero-text-box h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    word-spacing: 4px;
+  }
+  
+  .hero-text-box .scroll-to-plan {
+    padding: 10px 30px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 100px;
+  
+    border-width: 0;
+  
+    border-bottom-style: solid;
+    border-bottom-width: 1;
+    border-image-repeat: stretch;
+    border-image-width: 1;
+    background-color: rgb(230, 126, 34);
+    box-sizing: border-box;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .hero-text-box .scroll-to-start {
+    position: relative;
+    text-decoration: none;
+    color: #e67e22;
+    font-size: 20px;
+    padding: 10px 30px;
+    left: 20px;
+    bottom: 10px;
+    border-width: 0;
+    border-radius: 100px;
+    border: 1px solid rgb(230, 126, 34);
+  }
+  .hero-text-box .scroll-to-plan:hover {
+    background-color: rgb(230, 126, 34, 0.6);
+  }
+  .hero-text-box .scroll-to-start:hover {
+    background-color: rgb(230, 126, 34);
+  }
+  
+  /* FIN HEADER  */
+  
+  #features {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  #features .row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+  }
+  #features .row2 h2 {
+    word-spacing: 4px;
+    font-family: "Lato", sans-serif;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  #features .ligne-orange {
+    border: 1px solid rgb(230, 126, 34);
+    width: 100px;
+  }
+  #features .row2 p {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    text-decoration-style: solid;
+  }
+  
+  /* FEATURES CONTAINER */
+  
+  #container-boxs {
+    /* margin-left: 349px;
+    margin-right: 349px; */
+    font-size: 20px;
+    width: 1820px;
+    margin: 0 auto;
+    position: absolute;
+    /* border: 4px solid black; */
+  }
+  #container-boxs {
+    padding: 50px 0px 0 50px;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 4px solid yellow; */
+  }
+  #container-boxs h3 {
+    font-weight: 300;
+  }
+  .box1 {
+    height: 300px;
+  
+    padding: 40px 0 0 0;
+  }
+  
+  /* FEATURE CONTAINER CORRECT */
+  
+  /* SECTION MEALS */
+  .section-meals {
+    position: relative;
+    bottom: 400px;
+    /* border: 4px solid red; */
+  }
+  .meals-showcase,
+  .meals-showcase2 {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    position: relative;
+    right: 40px;
+  }
+  .meals-showcase2 {
+    position: relative;
+    bottom: 20px;
+  }
+  .meals-showcase img,
+  .meals-showcase2 img {
+    height: 300px;
+    width: 29em;
+    /* background-image: rgb(0,0, 0, 0.7); */
+  }
+  .meals-showcase img:hover,
+  .meals-showcase2 img:hover {
+    transition-duration: 0.5s, 0.5s, 0.5s;
+    transform: matrix(1.15, 0, 0, 1.15, 0, 0);
+    transition-property: transform, opacity, transform;
+  }
+  
+  /* SECTION WORKS */
+  #works {
+    background-color: #f4f4f4;
+    position: relative;
+    bottom: 530px;
+  }
+  .works-text {
+    display: flex;
+    justify-content: center;
+  }
+  .works-text h2 {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    word-spacing: 4px;
+  }
+  
+  #works .ligne-orange {
+    border: 1px solid rgb(230, 126, 34);
+    width: 100px;
+    margin: auto;
+    display: flex;
+  }
+  
+  .works-simple {
+    position: relative;
+    top: 30px;
+    /* border: 4px solid red; */
+    display: flex;
+    justify-content: center;
+  }
+  .img-iphone img {
+    position: relative;
+    left: 120px;
+    top: 40px;
+    height: 400px;
+  }
+  .works-text-container {
+    position: relative;
+    left: 250px;
+    top: 70px;
+  }
+  .works-step {
+    display: flex;
+    /* border: 2px solid red; */
+  }
+  .works-step p {
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+  }
+  .un,
+  .deux,
+  .trois {
+    color: #e67e22;
+    width: 53px;
+    height: 53px;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+  }
+  
+  .un h1,
+  .deux h1,
+  .trois h1 {
+    position: relative;
+    bottom: 8px;
+    left: 18px;
+  }
+  
+  /* DOWNLOAD LOGO */
+  
+  .logo-down {
+    position: relative;
+    top: 32px;
+    left: 5px;
+  }
+  .download-app img {
+    position: relative;
+    right: 10px;
+    height: 50px;
+  }
+  .download-app-android img {
+    height: 48px;
+  }
+  
+  /* SECTION CITIES */
+  #cities {
+    position: relative;
+    bottom: 450px;
+    border: 2px solid green;
+  }
+  #cities .ligne-orange {
+    border: 1px solid rgb(230, 126, 34);
+    width: 100px;
+    margin: auto;
+    display: flex;
+  }
+  .cities-text {
+    display: flex;
+    justify-content: center;
+  }
+  .cities-text h2 {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    word-spacing: 4px;
+  }
+  .cities-container {
+    display: flex;
+    justify-content: center;
+  }
+  .cities-container h3 {
+    font-weight: 300;
+    font-size: 25px;
+  }
+  .city-box {
+    padding: 50px 40px 0 0;
+    position: relative;
+    left: 18px;
+  }
+  
+  .city-feature {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .city-feature a {
+    color: rgb(230, 126, 34);
+  
+    text-decoration-style: solid;
+    text-decoration-color: rgb(230, 126, 34);
+  }
+  
+  .cities-container h3 {
+    font-size: 25px;
+    font-weight: 300;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+  }
+  .cities-container img {
+    height: 200px;
+    width: 260px;
+  }
